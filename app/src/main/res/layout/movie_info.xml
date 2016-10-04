@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_title"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/movie_title"
+            android:id="@+id/poster"
+            android:padding="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/year"
+            android:layout_toRightOf="@+id/poster"
+            android:layout_below="@+id/movie_title"
+            android:padding="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/director"
+            android:layout_below="@+id/year"
+            android:layout_toRightOf="@+id/poster"
+            android:padding="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Actors"
+            android:layout_below="@+id/director"
+            android:layout_toRightOf="@id/poster"
+            android:padding="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:layout_below="@id/poster"
+            android:padding="15dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addtowatch"
+            android:layout_below="@id/description"
+            android:layout_centerHorizontal="true"
+            android:onClick="addToWatchlist"
+            android:text="add to watchlist"/>
+    </RelativeLayout>
+
+</ScrollView>
