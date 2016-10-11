@@ -29,9 +29,12 @@ Choice of control structures is fine, there was some reuse of library functional
 Expression:
 Level: 3
 Comments: Expression are simple and appropriate, datastructures are appropriate.
+
 Decomposition:
 Level:2
-Most functions are limited in lenght, but they share many variables instead of having parameters. Some function could be seperated in more tasks than just one. Like in MovieInfo in the onCreate. Could have been written with more sub functions.
+Most functions are limited in lenght, but they share many variables instead of having parameters. Some function could be seperated in more tasks than just one. 
+Like in MovieInfo in the onCreate. Could have been written with more sub functions.
+
 Modularization
 Level: 2-3
 Modules dont have mixed responsibilities but they do contain a lot of variables sometimes.
